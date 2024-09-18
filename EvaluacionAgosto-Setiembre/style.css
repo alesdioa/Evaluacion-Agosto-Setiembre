@@ -1,0 +1,318 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    height: 100px;
+    color: #ffffff;
+    background-color: #646efe;
+    padding: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 3em;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+
+.menu {
+    padding: 5px;
+    background-color: rgb(157, 209, 212);
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 10px;
+}
+
+.menu a {
+    font-size: larger;
+    text-decoration: none;
+    color: #000000;
+    padding: 10px 15px;
+    display: block;
+}
+
+.menu a:hover {
+    color: #ffffff;
+    background-color: #0429a3;
+    border-radius: 4px;
+}
+
+
+.introduction, .qes, .tv, .fun, .casos {
+    padding: 20px;
+}
+
+
+.introduction {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.texto1 {
+    font-family: "Sevillana", cursive;
+    font-size: 1.2rem;
+    padding: 30px 50px;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.imagen1 {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.imagen1 img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.qes {
+    background-color: #2e2e2e;
+    color: #ffffff;
+}
+
+.texto2 {
+    font-family: "Sevillana", cursive;
+    font-size: 1.2rem;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.tv {
+    color: #000000;
+}
+
+.imagen2 {
+    display: flex;
+    justify-content: center;
+}
+
+.texto3 {
+    font-family: "Sevillana", cursive;
+    font-size: 1.2rem;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.fun {
+    color: #ffffff;
+    background-color: #2e2e2e;
+}
+
+.texto4 {
+    font-family: "Sevillana", cursive;
+    font-size: 1.2rem;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.casos {
+    color: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+.texto5 {
+    font-family: "Sevillana", cursive;
+    font-size: 1.2rem;
+    padding: 30px 50px;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.imglink{
+    width: 4rem;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header1 {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.button2 {
+    background-color: #0056b3;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button2 a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.section {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.section-title {
+    margin-top: 0;
+    color: #007BFF;
+}
+
+.resource-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resource-item {
+    margin-bottom: 15px;
+}
+
+.resource-link {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.resource-link:hover {
+    text-decoration: underline;
+}
+
+.resource-description {
+    margin: 5px 0 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #007BFF;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-text {
+    margin: 0;
+}
+
+@media (max-width: 840px) {
+    .header h1 {
+        font-size: larger;
+    }
+
+    .menu ul{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contenedor1{
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .imagen1 .imagen2 img{
+        width: 400px;
+    }
+
+    .imagen2 img{
+        width: 400px;
+    }
+
+    .menu a {
+        padding: 8px;
+        font-size: 0.9rem;
+    }
+
+    .texto1, .texto2, .texto3, .texto4, .texto5 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 1rem;
+    }
+
+    .button2 {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .menu ul {
+        flex-direction: column; /* Stack menu items vertically */
+    }
+
+    .menu li {
+        margin: 5px 0;
+    }
+
+    .texto1, .texto2, .texto3, .texto4, .texto5 {
+        padding: 10px;
+    }
+}
